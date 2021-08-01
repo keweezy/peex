@@ -1,0 +1,44 @@
+@import './variables.scss';
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+.primary-color {
+  color: $primary-color !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.w-100 {
+  width: 100%;
+}
+.light-text {
+  color: $light-grey;
+}
+
+.v-application {
+  [class*='text-'] {
+    font-family: $font-family, sans-serif !important;
+  }
+  font-family: $font-family, sans-serif !important;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0px;
+  }
+}
