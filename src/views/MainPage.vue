@@ -255,6 +255,7 @@ body {
 .container-div {
   padding: 1rem 1.5rem 2rem 1.2rem;
   background-color: $background-color;
+  height: 100vh;
   .cover-img {
     height: 10rem;
 
