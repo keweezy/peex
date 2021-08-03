@@ -26,6 +26,11 @@ p {
 .light-text {
   color: $light-grey;
 }
+.btn-primary {
+  font-size: 12px !important;
+  height: 2.4rem !important;
+  color: white !important;
+}
 
 .v-application {
   [class*='text-'] {

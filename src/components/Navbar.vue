@@ -1,7 +1,7 @@
 <template>
-  <v-app-bar app flat class="navbar">
+  <v-app-bar app flat class="navbar" style="z-index:10">
     <div class="d-flex align-center">
-      <p>Logo</p>
+      <h3 class="primary-color pl-4 cursor-pointer" style="font-weight:600">Peexoo</h3>
     </div>
 
     <v-spacer></v-spacer>
@@ -9,7 +9,7 @@
 
     <div class="d-flex">
       <h4
-        class="px-8 labels"
+        class="px-8 labels cursor-pointer"
         v-for="(label, i) in ['Business Manager', 'MarketPlace', 'XooCam']"
         :key="i"
       >
@@ -18,7 +18,7 @@
     </div>
     <v-spacer></v-spacer>
     <div class="d-flex align-center">
-      <h4 style="color:#E39400">Join Peexoo</h4>
+      <h4 style="color:#E39400; font-weight:600" class="cursor-pointer">Join Peexoo</h4>
       <v-icon>mdi-menu-down</v-icon>
     </div>
   </v-app-bar>
